@@ -1,0 +1,45 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Styling for the car card */
+.car-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Title styling */
+.car-title {
+    margin-top: 0;
+    color: #333;
+    font-size: 24px;
+    text-align: center;
+}
+
+/* Details section styling */
+.car-details {
+    margin-top: 20px;
+}
+
+/* Individual detail styling */
+.car-detail {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #666;
+}
+
+.car-detail strong {
+    color: #333;
+}
